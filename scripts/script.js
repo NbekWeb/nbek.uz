@@ -455,7 +455,7 @@ let works = [
     img: "./images/works/router.png",
     title: "Vue Router",
     text: "#css, #vue, #api",
-    link: "https://spiffy-cassata-9fe431.netlify.app/news",
+    link: "https://spiffy-cassata-9fe431.netlify.app/",
   },
   {
     img: "./images/works/todo.png",
