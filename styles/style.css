@@ -541,18 +541,40 @@ main {
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 480px !important;
+  overflow: auto;
+  background: rgb(23, 22, 22) url("../images/stars.png") top center;
+  border-radius: 30px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
 }
 
 .work__items {
   border: 1px solid rgb(209, 167, 167);
   background: rgba(209, 167, 167, 0.171);
   box-shadow: 2px 3px rgb(209, 167, 167);
-  width: 23%;
+  width: 18%;
   border-radius: 10px;
   margin: 10px;
   padding: 10px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .work__items:hover .work__img {
@@ -561,7 +583,7 @@ main {
 }
 .work__img {
   width: 100%;
-  height: 50%;
+  height: 220px;
   transition: transform 0.5s, filter 0.5s ease-in-out;
   filter: blur(1px);
   transform: scale(0.95);
@@ -575,9 +597,12 @@ main {
   flex-grow: 1;
 }
 .work__title {
-  font-size: 32px;
+  font-size: 24px;
   color: #3997f8;
   font-family: IBM-Regular;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 .work__text {
   font-size: 16px;
