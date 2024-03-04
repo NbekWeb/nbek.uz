@@ -341,6 +341,7 @@ main {
   font-size: 36px;
   text-align: center;
   font-family: Viaoda;
+  margin-top: 50px;
 }
 .sec__bottom::before {
   content: "";
@@ -349,6 +350,7 @@ main {
   background: #15a9ff;
 }
 .sec__bottom {
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -412,8 +414,6 @@ main {
 @media (max-width: 576px) {
   .about__info {
     width: 100%;
-    margin-right: 20px;
-    margin-left: 20px;
   }
   .info__text {
     font-size: 16px;
@@ -518,7 +518,7 @@ main {
 
 @media (max-width: 576px) {
   .skill__info {
-    width: 90%;
+    width: 100%;
   }
   .skill__title {
     font-size: 18px;
@@ -693,13 +693,14 @@ main {
 @media (max-width: 992px) {
   .iteam {
     width: 40%;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 576px) {
   .iteam {
-    width: 60%;
-    margin-bottom: 15px;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 30px;
   }
 }
 .footer {

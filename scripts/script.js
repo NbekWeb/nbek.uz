@@ -319,3 +319,103 @@ var typed = new Typed(".types", {
   backSpeed: 60,
   loop: true,
 });
+
+let works = [
+  {
+    img: "./images/works/лого бошқарма.jpg",
+    title: "Madaniyat bosh",
+    text: "#html, #css, #js, #jquary",
+    link: "https://toshkentmadaniyat.uz/",
+  },
+  {
+    img: "./images/works/movie.png",
+    title: "Movie",
+    text: "#html, #css, #reactjs, #api",
+    link: "https://movie-kjdev.netlify.app",
+  },
+  {
+    img: "./images/works/Ilxom.png",
+    title: "Ilxom Begimqulov",
+    text: "#html, #css, #js, #jquary",
+    link: "https://ilxombegimqulov.uz/",
+  },
+  {
+    img: "./images/works/saranjevo.jpg",
+    title: "Saranjevo",
+    text: "#html, #less, #js",
+    link: "https://sarajevo-kjdev.netlify.app/",
+  },
+  {
+    img: "./images/works/ocean.jpg",
+    title: "Ocean",
+    text: "#html, #css, #js",
+    link: "https://slider-ocean-kjdev.netlify.app/",
+  },
+  {
+    img: "./images/works/uzauto.jpg",
+    title: "UZ-Auto",
+    text: "#html, #css, #js",
+    link: "https://uz-auto-kjdev.netlify.app/",
+  },
+  {
+    img: "./images/works/my-work.jpg",
+    title: "MY&nbsp;Work",
+    text: "#html, #css, #bootstrap, #js",
+    link: "https://my-work-kjdev.netlify.app/",
+  },
+  {
+    img: "./images/works/Online-Sudoku-Image.gif",
+    title: "Sudoku",
+    text: "#html, #css, #js",
+    link: "https://sudoku-kjdev.netlify.app/",
+  },
+  {
+    img: "./images/works/burger.jpg",
+    title: "Burger",
+    text: "#html, #css, #bootstrap",
+    link: "https://street88.netlify.app/",
+  },
+  {
+    img: "./images/works/cinema.png",
+    title: "Cinema",
+    text: "#pug, #scss, #js, #gulp",
+    link: "https://cinema-kjdev.netlify.app/",
+  },
+  {
+    img: "./images/works/math test.png",
+    title: "Math",
+    text: "#html, #css, #js",
+    link: "https://simple-mathtest.netlify.app/",
+  },
+  {
+    img: "./images/works/image-active.png",
+    title: "Active&nbsp;Img",
+    text: "#html, #css, #js",
+    link: "https://img-active-kjdev.netlify.app/",
+  },
+  {
+    img: "./images/works/website.png",
+    title: "Web&nbsp;Site",
+    text: "#html, #css, #js, #Jquary",
+    link: "https://web-site-kjdev.netlify.app/",
+  },
+  {
+    img: "./images/works/typing.jpg",
+    title: "Typing",
+    text: "#html, #css, #js",
+    link: "https://typing-kjdev.netlify.app/",
+  },
+];
+let workHTML = document.querySelector(".work");
+works.forEach((item) => {
+  workHTML.innerHTML += `
+    <div class="work__items" data-tilt>
+      <img class="work__img" src="${item.img}"/>
+      <div class="work__info">
+        <div class="work__title">${item.title}</div>
+        <p class="work__text">${item.text}</p>
+        <a target="blank" class="work__btn" href="${item.link}">View</a>
+      </div>
+    </div>
+  `;
+});
