@@ -226,20 +226,8 @@ $(document).ready(function () {
   });
 
   top.reveal(".header__right", { delay: 300 });
-  top.reveal(".head__link", { delay: 700 });
-  top.reveal(".iteam-right", { delay: 300 });
-  top.reveal(".iteam-right2", { delay: 100 });
-
-  top.reveal(".header__left", { delay: 500 });
-  top.reveal(".iteam-left", { delay: 100 });
-  top.reveal(".iteam-left2", { delay: 300 });
-
-  top.reveal(".sec__title", {});
-  top.reveal(".sec__bottom", {});
-  // top.reveal('.skill',{delay: 100})
-  top.reveal(".work__items", { delay: 200 });
-
-  top.reveal(".control", { delay: 100 });
+  top.reveal(".head__link", { delay: 300 });
+  top.reveal(".header__left", { delay: 300 });
 
   // Skills
 
@@ -310,6 +298,18 @@ $(document).ready(function () {
   new Protsent({
     el: ".ts__percent",
     percent: ".ts__line",
+  });
+  new Protsent({
+    el: ".vue__percent",
+    percent: ".vue__line",
+  });
+  new Protsent({
+    el: ".nuxt__percent",
+    percent: ".nuxt__line",
+  });
+  new Protsent({
+    el: ".tailwind__percent",
+    percent: ".tailwind__line",
   });
 });
 
