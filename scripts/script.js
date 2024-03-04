@@ -333,24 +333,37 @@ let works = [
     text: "#css, #tailwind #vue, #api",
     link: "https://cheery-centaur-86468c.netlify.app/",
   },
-  {
-    img: "./images/works/task.png",
-    title: "Task",
-    text: "#html, #css, #js",
-    link: "https://unrivaled-zuccutto-7b4b88.netlify.app/",
-  },
+
   {
     img: "./images/works/лого бошқарма.jpg",
     title: "Madaniyat bosh",
     text: "#html, #css, #js, #jquary",
     link: "https://toshkentmadaniyat.uz/",
   },
-  
+  {
+    img: "./images/works/calc.png",
+    title: "Calculyator",
+    text: "#html, #css, #js",
+    link: "https://grand-kitten-f6aa74.netlify.app/",
+  },
+  {
+    img: "./images/works/eng.png",
+    title: "dictionary eng",
+    text: "#html, #css, #js, #api",
+    link: "https://imaginative-lily-7571b5.netlify.app/",
+  },
+  {
+    img: "./images/works/task.png",
+    title: "Task",
+    text: "#html, #css, #js",
+    link: "https://unrivaled-zuccutto-7b4b88.netlify.app/",
+  },
+
   {
     img: "./images/works/Ilxom.png",
     title: "Ilxom Begimqulov",
     text: "#html, #css, #js, #jquary",
-    link: "https://ilxombegimqulov.uz/",
+    link: "https://ilxom-begimqulov.netlify.app/",
   },
   {
     img: "./images/works/260deg.png",
@@ -359,11 +372,12 @@ let works = [
     link: "https://starlit-semifreddo-d73ba9.netlify.app/",
   },
   {
-    img: "./images/works/calc.png",
-    title: "Calculyator",
+    img: "./images/works/dino.png",
+    title: "Dino Game",
     text: "#html, #css, #js",
-    link: "https://grand-kitten-f6aa74.netlify.app/",
+    link: "https://dinoooooooooo.netlify.app/",
   },
+
   {
     img: "./images/works/saranjevo.jpg",
     title: "Saranjevo",
@@ -375,6 +389,12 @@ let works = [
     title: "Ocean",
     text: "#html, #css, #js",
     link: "https://slider-ocean-kjdev.netlify.app/",
+  },
+  {
+    img: "./images/works/business.png",
+    title: "Busines-invest",
+    text: "#html, #css, #js",
+    link: "https://busines-invest.netlify.app/",
   },
   {
     img: "./images/works/uzauto.jpg",
@@ -417,19 +437,6 @@ let works = [
     title: "Math",
     text: "#html, #css, #js",
     link: "https://simple-mathtest.netlify.app/",
-  },
-
-  {
-    img: "./images/works/dino.png",
-    title: "Dino Game",
-    text: "#html, #css, #js",
-    link: "https://dinoooooooooo.netlify.app/",
-  },
-  {
-    img: "./images/works/eng.png",
-    title: "dictionary eng",
-    text: "#html, #css, #js, #api",
-    link: "https://imaginative-lily-7571b5.netlify.app/",
   },
   {
     img: "./images/works/event.png",
