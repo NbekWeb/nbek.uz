@@ -335,6 +335,12 @@ let works = [
   },
 
   {
+    img: "./images/works/identy.png",
+    title: "Face ID",
+    text: "#css, #tailwind, #vue",
+    link: "https://transcendent-strudel-e3efa9.netlify.app/",
+  },
+  {
     img: "./images/works/лого бошқарма.jpg",
     title: "Madaniyat bosh",
     text: "#html, #css, #js, #jquary",
