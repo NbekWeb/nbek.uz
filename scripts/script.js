@@ -113,14 +113,14 @@ $(document).ready(function () {
     el: ".about__from",
     speed: 100,
   });
-  new Typing({
-    el: ".about__educ",
-    speed: 100,
-  });
-  new Typing({
-    el: ".about__course",
-    speed: 100,
-  });
+  // new Typing({
+  //   el: ".about__educ",
+  //   speed: 100,
+  // });
+  // new Typing({
+  //   el: ".about__course",
+  //   speed: 100,
+  // });
 
   const top = ScrollReveal({
     origin: "top",
@@ -176,28 +176,28 @@ $(document).ready(function () {
     percent: ".css__line",
   });
   new Protsent({
-    el: ".scss__percent",
-    percent: ".scss__line",
+    el: ".tailwind__percent",
+    percent: ".tailwind__line",
   });
   new Protsent({
-    el: ".bootstrap__percent",
-    percent: ".bootstrap__line",
+    el: ".ant__percent",
+    percent: ".ant__line",
   });
   new Protsent({
     el: ".js__percent",
     percent: ".js__line",
   });
   new Protsent({
-    el: ".jqurey__percent",
-    percent: ".jquery__line",
+    el: ".nuxt__percent",
+    percent: ".nuxt__line",
   });
   new Protsent({
-    el: ".gulp__percent",
-    percent: ".gulp__line",
+    el: ".vue__percent",
+    percent: ".vue__line",
   });
   new Protsent({
-    el: ".react__percent",
-    percent: ".react__line",
+    el: ".git__percent",
+    percent: ".git__line",
   });
 
   new Protsent({
@@ -212,7 +212,7 @@ $(document).ready(function () {
 });
 
 var typed = new Typed(".types", {
-  strings: ["freelancer", "web developer", "mentor"],
+  strings: ["freelancer", "web developer"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true,
