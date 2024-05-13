@@ -181,7 +181,7 @@ main {
 
 @media (max-width: 768px) {
   .header__content {
-    padding-top: 30px;
+    padding-top: 50px;
     flex-direction: column;
     height: 100%;
   }
