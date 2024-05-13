@@ -58,8 +58,6 @@ $(document).ready(function () {
     });
   });
 
- 
-
   class Typing {
     constructor(obj) {
       this.el = document.querySelector(obj.el);
@@ -208,7 +206,6 @@ $(document).ready(function () {
     el: ".tailwind__percent",
     percent: ".tailwind__line",
   });
-  
 });
 
 var typed = new Typed(".types", {
@@ -222,186 +219,32 @@ let works = [
   {
     img: "./images/works/kozimxon.webp",
     title: "Personal website",
-    text: "#css, #tailwind #vue, #api",
+    text: "#css, #tailwind, #vue, #api",
     link: "https://kozimxon.uz/",
   },
   {
-    img: "./images/works/marketvue.webp",
-    title: "Vue Online Market",
-    text: "#css, #tailwind #vue, #api",
-    link: "https://cheery-centaur-86468c.netlify.app/",
-  },
-
-  {
-    img: "./images/works/identy.webp",
-    title: "Face ID",
-    text: "#css, #tailwind, #vue",
-    link: "https://transcendent-strudel-e3efa9.netlify.app/",
+    img: "./images/works/lor.jpg",
+    title: "Lor website",
+    text: "#nuxt2,#tailwind, #elementUi",
+    link: "https://lor777.uz/",
   },
   {
-    img: "./images/works/лого бошқарма.webp",
-    title: "Madaniyat bosh",
-    text: "#html, #css, #js, #jquary",
-    link: "https://toshkentmadaniyat.uz/",
+    img: "./images/works/wms.jpg",
+    title: "Storage website",
+    text: "#nuxt3,#i18n,#tailwind, #elementUi",
+    link: "http://185.211.170.253:3000/auth/register",
   },
   {
-    img: "./images/works/calc.webp",
-    title: "Calculyator",
-    text: "#html, #css, #js",
-    link: "https://grand-kitten-f6aa74.netlify.app/",
+    img: "./images/works/moow.jpg",
+    title: "Car market website",
+    text: "#nuxt3,#i18,#tailwind, #elementUi,#vueUse, #pinia",
+    link: "https://moow.isoqhakimov.uz/",
   },
   {
-    img: "./images/works/eng.webp",
-    title: "dictionary eng",
-    text: "#html, #css, #js, #api",
-    link: "https://imaginative-lily-7571b5.netlify.app/",
-  },
-  {
-    img: "./images/works/task.webp",
-    title: "Task",
-    text: "#html, #css, #js",
-    link: "https://unrivaled-zuccutto-7b4b88.netlify.app/",
-  },
-
-  {
-    img: "./images/works/Ilxom.webp",
-    title: "Ilxom Begimqulov",
-    text: "#html, #css, #js, #jquary",
-    link: "https://ilxom-begimqulov.netlify.app/",
-  },
-  {
-    img: "./images/works/260deg.webp",
-    title: "360 Deg",
-    text: "#aframe",
-    link: "https://starlit-semifreddo-d73ba9.netlify.app/",
-  },
-  {
-    img: "./images/works/dino.webp",
-    title: "Dino Game",
-    text: "#html, #css, #js",
-    link: "https://dinoooooooooo.netlify.app/",
-  },
-
-  {
-    img: "./images/works/saranjevo.webp",
-    title: "Saranjevo",
-    text: "#html, #less, #js",
-    link: "https://sarajevo-kjdev.netlify.app/",
-  },
-  {
-    img: "./images/works/ocean.webp",
-    title: "Ocean",
-    text: "#html, #css, #js",
-    link: "https://slider-ocean-kjdev.netlify.app/",
-  },
-  {
-    img: "./images/works/business.webp",
-    title: "Busines-invest",
-    text: "#html, #css, #js",
-    link: "https://busines-invest.netlify.app/",
-  },
-  {
-    img: "./images/works/uzauto.webp",
-    title: "UZ-Auto",
-    text: "#html, #css, #js",
-    link: "https://uz-auto-kjdev.netlify.app/",
-  },
-  {
-    img: "./images/works/my-work.webp",
-    title: "MY&nbsp;Work",
-    text: "#html, #css, #bootstrap, #js",
-    link: "https://my-work-kjdev.netlify.app/",
-  },
-  {
-    img: "./images/works/movie.webp",
-    title: "Movie",
-    text: "#html, #css, #reactjs, #api",
-    link: "https://movie-kjdev.netlify.app",
-  },
-  {
-    img: "./images/works/Online-Sudoku-Image.webp",
-    title: "Sudoku",
-    text: "#html, #css, #js",
-    link: "https://sudoku-kjdev.netlify.app/",
-  },
-  {
-    img: "./images/works/burger.webp",
-    title: "Burger",
-    text: "#html, #css, #bootstrap",
-    link: "https://street88.netlify.app/",
-  },
-  {
-    img: "./images/works/cinema.webp",
-    title: "Cinema",
-    text: "#pug, #scss, #js, #gulp",
-    link: "https://cinema-kjdev.netlify.app/",
-  },
-  {
-    img: "./images/works/math test.webp",
-    title: "Math",
-    text: "#html, #css, #js",
-    link: "https://simple-mathtest.netlify.app/",
-  },
-  {
-    img: "./images/works/event.webp",
-    title: "Question",
-    text: "#html, #css, #js",
-    link: "https://tourmaline-rugelach-348a06.netlify.app/",
-  },
-  {
-    img: "./images/works/house.webp",
-    title: "Live Green",
-    text: "#html, #css, #js",
-    link: "https://marvelous-eclair-80ad2f.netlify.app/",
-  },
-
-  {
-    img: "./images/works/router.webp",
-    title: "Vue Router",
-    text: "#css, #vue, #api",
-    link: "https://spiffy-cassata-9fe431.netlify.app/",
-  },
-  {
-    img: "./images/works/todo.webp",
-    title: "Todolist",
-    text: "#css, #react, #api",
-    link: "https://relaxed-crisp-880d16.netlify.app/",
-  },
-  {
-    img: "./images/works/todovue.webp",
-    title: "Simple Todo",
-    text: "#html, #js, #vue",
-    link: "https://dapper-platypus-6994d7.netlify.app/",
-  },
-  {
-    img: "./images/works/xvso.webp",
-    title: "X vs O",
-    text: "#html, #css, #js",
-    link: "https://x-vs-o-kjdev.netlify.app/",
-  },
-  {
-    img: "./images/works/zakas.webp",
-    title: "Buyurtma Qilish",
-    text: "#scss, #vue2",
-    link: "https://rad-figolla-842881.netlify.app/",
-  },
-  {
-    img: "./images/works/image-active.webp",
-    title: "Active&nbsp;Img",
-    text: "#html, #css, #js",
-    link: "https://img-active-kjdev.netlify.app/",
-  },
-  {
-    img: "./images/works/website.webp",
-    title: "Web&nbsp;Site",
-    text: "#html, #css, #js, #Jquary",
-    link: "https://web-site-kjdev.netlify.app/",
-  },
-  {
-    img: "./images/works/typing.webp",
-    title: "Typing",
-    text: "#html, #css, #js",
-    link: "https://typing-kjdev.netlify.app/",
+    img: "./images/works/ads.jpg",
+    title: "Ads website",
+    text: "#vue3,#i18,#pinia, #scss,#ant,#leaflet",
+    link: "https://app.adspro.uz/",
   },
 ];
 let workHTML = document.querySelector(".work");
